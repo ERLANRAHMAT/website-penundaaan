@@ -35,10 +35,10 @@ app.get("*", async(req, res) => {
     let { ip, city, country, org, timezone } = iplookup_;
     let messageHandler = {
         ID: {
-            title_web: "Akses ini ditunda Sementara",
+            title_web: "Pergantian Domain Api",
         },
         EN: {
-            title_web: "temporary delay to Access"
+            title_web: "Changed Api Domain"
         }
     }
     res.render('../views/index', {
